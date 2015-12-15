@@ -9,7 +9,7 @@
   "moduleType": [],
   "homepage": "",
   "private": false,
-  "ignore": [],
+  "ignore": ["bower.json"],
   "dependencies": {
     "i18next": "^1.11.1"
   }
