@@ -1,6 +1,10 @@
 var gulp = require('gulp');
 var config = require('./config');
-var plugins = require('../../' + config.plugins);
+
+var plugins = require('gulp-load-plugins')();
+plugins.path = require('path');
+plugins.browserSync = require('browser-sync').create();
+
 var buildDir = 'target';
 var del = require('del');
 var inject = require('gulp-inject');
