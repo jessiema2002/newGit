@@ -1,0 +1,274 @@
+/* ------LDM 360------ */
+.ldmViewTogglePanel {
+	height: 50px;
+	width: calc(100% - 20px);
+	border-bottom: 1px solid #bbb;
+}
+
+.ldmViewTogglePanel-title {
+	float:left;
+	line-height: 50px;
+	height: 50px;
+}
+
+.ldmViewTogglePanel-name {
+	font-weight: 700;
+	vertical-align: 8px;
+	padding-left: 10px;
+}
+
+.ldmViewTogglePanel-toggle {
+	clear: both;
+	float: left;
+	height: 50px;
+	line-height: 50px;
+}
+
+
+.ldmViewTogglePanel-button  {
+	float: right;
+	padding-right: 20px;
+	border-right: 1px solid #DDD;
+	margin-top: 10px;
+}
+
+.ldmViewTogglePanel-button img {
+	width: 20px;
+	height: 20px;
+}
+
+.ldmViewTogglePanel-button span {
+	font-size: 14px;
+}
+
+.ldmViewTogglePanel-close {
+	float: right;
+	margin: 15px 0 0 20px;
+}
+
+.ldmPortletContainer {
+	padding-left: 20px;
+}
+
+.ldmPortletContainer .infaPortlet.ldmHeaderPanel {
+	box-shadow: none;
+    border: none;
+}
+
+.infaPortlet.ldmHeaderPanel .infaPortlet-content {
+	margin-bottom: 0;
+}
+
+.ldmHeaderPortlet {
+	height: 30px;
+	overflow: hidden;
+}
+
+.ldmHeaderContainer {
+	display: inline-block;
+	line-height: 30px;
+	background: #EEE;
+	border-radius: 5px;
+}
+
+.ldmHeaderPanel-title {
+	float: left;
+	margin-left: 20px;
+	color: #535353;
+}
+
+.ldmHeaderPanel-subtitle:not(:last-child) {
+	border-right: 1px solid #BBB;
+}
+
+.ldmHeaderPanel-subtitle {
+	float: left;
+	padding-right: 20px;
+	padding-left: 3px;
+	font-size: 14px;
+	font-weight: 700;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	max-width: 200px;
+}
+
+.ldmLink {
+	font-size: 14px;
+	font-weight: 700;
+}
+
+.ldmPanel {
+	width: 100%;
+	table-layout: fixed;
+}
+
+.ldmPanel-mock {
+	margin-left: 20px;
+	background-color: #E7FEFF;
+	/*background: repeating-linear-gradient(
+			45deg,
+			transparent,
+			transparent 10px,
+			#F8F8F8 1px,
+			#F8F8F8 2px
+	),
+	linear-gradient(
+			to bottom,
+			#ccc,
+			#ccc
+	)*/
+}
+
+.ldmOverview-description {
+    display: inline-block;
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+
+.ldmPanel-name {
+	float: left;
+	color: #535353;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+div.ldmPanel-name {
+	width: 100%;
+}
+
+.ldmPanel-value {
+	float: left;
+	padding-left: 2px;
+	font-weight: 500;
+	color: black;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: normal;
+	width: 100%;
+}
+
+.ldmValueLink {
+	cursor: pointer;
+}
+
+.ldmValueLink:hover {
+	color: #3399FF;
+}
+
+.ldmPercentagesPanel .ldmPanel-value {
+	white-space: nowrap;
+}
+
+
+/*@-webkit-keyframes jiggle
+{
+    0% {-webkit-transform: rotateZ(-.25deg);}
+    50% {-webkit-transform: rotateZ(.25deg);}
+}
+@-moz-keyframes jiggle
+{
+    0% {-moz-transform: rotateZ(-.25deg);}
+    50% {-moz-transform: rotateZ(.25deg);}
+}
+@keyframes jiggle
+{
+    0% {transform: rotateZ(-.25deg);}
+    50% {transform: rotateZ(.25deg);}
+}
+
+.jiggle {
+    -webkit-animation: jiggle 0.25s ease infinite;
+    -moz-animation: jiggle 0.25s ease infinite;
+    animation: jiggle 0.25s ease infinite;
+    -webkit-transform: rotate(-.25deg);
+    -moz-transform: rotate(-.25deg);
+    cursor: move;
+    outline: 1px solid #ccc;
+}*/
+
+/* LDM Shared Panel Classes */
+
+.ldmPanel-textBlock {
+	width: 25%;
+	display: inline-block;
+}
+
+/* Value Distribution Panel  */
+
+.ldmValueDist-panel {
+	line-height: 20px; 
+}
+
+.ldmValueDist-panel span {
+	font-weight: bold;
+}
+
+.ldmValueDist-outerContainer {
+	float: left; 
+	width: 45%;
+	height: 20px;
+}
+
+.ldmValueDist-innerContainer {
+	height: 100%;
+	width: 0;
+	float: left;
+}
+
+.ldmValueDist-nullPercent {
+	background: red; 
+}
+
+.ldmValueDist-uniquePercent {
+	background: #29abe2; 
+}
+
+.ldmValueDist-duplicatePercent {
+	background: #5d5d5d; 
+}
+
+.ldmValueDist-legendContainer {
+	display: inline-block;
+	width: 30px;
+	height: 15px;
+	margin-right: 10px;
+	vertical-align: middle;
+}
+
+.ldmValueDist-valueBlock {
+	width: 60px;
+	height: 20px;
+	vertical-align: middle;
+	display: inline-block;
+	line-height: 20px;
+	text-align: center;
+}
+
+/* Patterns Panel */
+.ldmPercentagesPanel {
+	height: 30px; 
+	line-height: 20px;
+}
+
+.ldmViewTogglePanel-toggle .selected .infaRoundedCorners {
+  background-color: #d2e7f9;
+  outline: 1px solid #bcbec0;
+  color: #39f;
+}
+
+.ldmViewTogglePanel-toggle .infaRoundedCorners {
+    background-color: transparent;
+    border: none;
+    color: #414042;
+}
+
+.ldmViewTogglePanel-toggle .infaRoundedCorners.infaButton-state-hover {
+    background-color: #3399FF;
+    color: white;
+}
+
+.ldmLinksGrid .infaGridLink a {
+	font-weight: 700;
+}

@@ -1,0 +1,93 @@
+{
+  "tasks": "./build/gulp/tasks",
+  "plugins": "./build/gulp/plugins",
+
+  "root":{
+    "buildDir": "target",
+    "test": "tests",
+    "dest": "public",
+    "dist_dest": "dist",
+    "distribution": "symphony.zip"
+  },
+
+  "components": {
+    "core": {
+      "name": "core",
+      "src": "source/ui/core",
+      "namespace": "infa"
+    },
+    "widgets": {
+      "name": "widgets",
+      "src": "source/ui/widgets",
+      "namespace": "infaw"
+    },
+    "webShell": {
+      "name": "webShell",
+      "src": "source/ui/webShell",
+      "namespace": "infaw"
+    },
+    "imf": {
+      "name": "imf",
+      "src": "source/features/imf",
+      "namespace": "infaw"
+    },
+    "inbox": {
+      "name": "inbox",
+      "src": "source/features/inbox",
+      "namespace": "infaw"
+    },
+    "api": {
+      "name": "api",
+      "src": "source/ui/api"
+    },
+    "dataPreview": {
+      "name": "dataPreview",
+      "src": "source/features/dataPreview",
+      "namespace": "infaw"
+    },
+    "services-isp": {
+      "name": "services-isp",
+      "src": "source/features/services/isp",
+      "namespace": "infaw"
+    },
+    "test": {
+      "name": "test",
+      "src": "source/test",
+      "namespace": "infaw"
+    }
+  },
+
+  "images": {
+    "src" : "**/images/*",
+    "dest" : "images"
+  },
+
+  "fonts": {
+    "src" : "**/fonts/*",
+    "dest": "fonts"
+  },
+
+  "tmpl": {
+    "src" : "**/tmpl/*.htm",
+    "dest" : "tmpl"
+  },
+
+  "bundles": {
+    "src": "**/i18n/*.properties"
+  },
+
+  "js": {
+    "dest" : "js"
+  },
+
+  "css": {
+    "dest" : "css",
+    "extensions": ["css", "scss"],
+    "excludes" :["**/tablet/**/*.css"]
+  },
+
+  "compile": {
+    "src" : "index.html",
+    "excludes": ["bootstrap.js", "jqxnumberinput.js"]
+  }
+}

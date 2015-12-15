@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.4, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="24px" height="24px" viewBox="0 0 24 24" enable-background="new 0 0 24 24" xml:space="preserve">
+<g>
+	<g>
+		<path fill-rule="evenodd" clip-rule="evenodd" fill="#FFD300" d="M3.6,24C1.68,24,0,22.32,0,20.4V3.6C0,1.682,1.68,0,3.6,0H20.4
+			C22.32,0,24,1.682,24,3.6v12L15.6,24H3.6z"/>
+		<path fill-rule="evenodd" clip-rule="evenodd" fill="#FCBC06" d="M24,15.6h-4.8c-2.041,0-3.601,1.682-3.601,3.602V24
+			C15.6,24,24,15.361,24,15.6z"/>
+	</g>
+	<path fill="none" stroke="#FFD300" stroke-miterlimit="10" d="M10.765,18.446"/>
+	<path fill="none" stroke="#FFD300" stroke-miterlimit="10" d="M12.365,11.946"/>
+	<path fill="none" stroke="#FFD300" stroke-miterlimit="10" d="M19.465,12.246"/>
+	<path fill="none" stroke="#FFD300" stroke-miterlimit="10" d="M12.465,12.246"/>
+	<path fill="#FF800E" d="M16.168,11.313l-5.111,1.063l1.633-4.958c-1.687-0.543-3.606-0.202-5.023,1.063
+		c-2.127,1.899-2.312,5.164-0.411,7.292c1.899,2.127,5.164,2.312,7.292,0.411C15.964,14.921,16.518,13.049,16.168,11.313z"/>
+	<path fill="#FF580E" d="M17.667,9.549c-0.154-0.767-0.506-1.504-1.064-2.13s-1.252-1.059-1.998-1.298l-1.44,4.369L17.667,9.549z"/>
+</g>
+</svg>

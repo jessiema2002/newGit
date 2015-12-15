@@ -1,0 +1,31 @@
+.ratingColor{
+	background-color: #A0CB9B;
+}
+
+#ratingWS .rated {	
+	padding: 20px 20px 20px 30px;
+	font-size: 16px;
+}
+
+#ratingWS svg polygon{
+	fill: #999999;
+}
+
+#ratingWS fieldset {
+  padding: 0;
+  margin: 0;
+  min-width: 0;
+  height: 100%;
+}
+
+#ratingWS legend {
+  width: inherit;
+  padding: 20px 0 0 20px;
+  font-size: 15px;
+  line-height: inherit;
+  color: #333333;
+  border: 0;
+  border-bottom: 0px;
+  margin-left: 10px;
+  font-weight: bold;
+}

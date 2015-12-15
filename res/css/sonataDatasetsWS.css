@@ -1,0 +1,28 @@
+#datasetsWS {
+	display: block;
+	margin: 100px 0px 0px 25px;
+}
+
+#datasetsWS table {
+	width:100%;
+    border-collapse: collapse;
+}
+
+#datasetsWS td, th {
+    font-size: 15px;
+    padding: 10px 5px 10px 5px;
+}
+
+#datasetsWS tr:nth-child(odd) {
+    background-color: #EEEEEE;
+}
+
+#datasetsWS #dataTable {
+	float: left;
+    width: 75%;
+}
+
+#datasetsWS #dropdown {
+	float: left;
+}
+    

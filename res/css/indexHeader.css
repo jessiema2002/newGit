@@ -1,0 +1,163 @@
+html,body,.enclosure {    	
+	margin:0;
+	overflow: hidden;
+}
+
+header, nav, article, footer, address, section {
+ display: block;
+}
+
+footer {
+   background: url(/web.page.indexpage/images/bottombar.png) repeat-x;
+   position:fixed;
+   left:0px;
+   bottom:0px;
+   height:25px;
+   width:100%;
+   z-index: 1   
+}
+
+.footerSpan {
+	padding-left: 10px;
+	font-size: small;	
+}
+
+/* .notificationCountSpan { */
+/* 	padding-left: 10px; */
+/* 	padding-right: 10px; */
+/* 	font-size: 1.0em; */
+/* 	vertical-align: bottom; */
+/* 	color:#FF6633	 */
+/* } */
+
+
+.indexHeader {	
+	height:50px;
+/* 	background-color:black; */
+	color: #CCCCCC;
+	min-width: 650px;
+	overflow: hidden;
+	display: table;
+	width: 100%;
+}
+
+.indexHeader .infaSearchActivationButton {  
+    margin-left: 20px;
+}
+
+.lineSeparator {
+	margin: 15px 0;
+	float: left;
+	height: 20px;
+	width: 1px;
+	border-right: 1px solid #666666;
+}
+
+.rightLineSeparator {	
+	margin: 15px;
+	float:right;
+	height:18px;
+	width: 1px;	
+	border-right: 1px solid #666666;	
+}
+
+.indexHeaderLogoContainer {
+	width: 300px;
+	height: 50px;
+	float:left;
+/* 	background-image: url(/web.pageheader/images/infa-logo.png); */
+	background-repeat:no-repeat;
+	background-position:center;
+	
+	display: block;
+}
+
+.indexHeaderLogoContainer > * {
+    float: left;
+    
+}
+.indexHeaderLogoContainer > div {
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.indexHeaderLogo {
+	display: block;    
+    margin: auto;   
+}
+
+
+.indexHeaderNewOpenMenu {
+	float:left;
+	margin: 13px 0px;
+	position: relative;
+	cursor: pointer;
+}
+
+.indexHeaderSearchField {
+	text-align: center;
+}
+
+.indexHeaderLeft {
+	display: table-cell;
+	min-width: 300px;
+}
+
+.indexHeaderMiddle {
+	min-width: 300px;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.indexHeaderRight {
+	float: right;
+	display: table-cell;
+	min-width: 350px;
+}
+
+.indexManageUserMenu {
+	float: left;
+	margin: 13px 0px;
+	position: relative;
+}
+
+.indexHelpIcon{
+	float: left;
+	margin: 16px 0px;
+	position: relative;
+	margin-right: 2px;
+}
+
+.indexHelpMenu{
+	float: left;
+	margin: 13px 0px;
+	position: relative;
+}
+
+/* .indexNotificationPrompt { */
+	
+/* 	float: left; */
+/* 	margin: 5px 0px; */
+/* 	position: relative; */
+/* 	padding-left:4px; */
+/* 	padding-right:4px; */
+/* 	padding-top:2px; */
+/* 	padding-bottom:2px; */
+
+/* 	background: none repeat scroll 0 0 red; */
+/* 	color: white; */
+/* 	font: bold 10px arial,sans-serif; */
+/* 	-moz-border-radius: 10px; */
+/* 	-webkit-border-radius: 10px; */
+/* 	-khtml-border-radius: 10px; */
+/* 	border-radius: 10px; */
+/* 	border: 1px solid red; */
+/* } */
+
+/* .indexNotificationIcon{ */
+/* 	float: left; */
+/* 	margin: 16px 0px; */
+/* 	position: relative; */
+/* 	margin-right: 2px; */
+/* } */
+
