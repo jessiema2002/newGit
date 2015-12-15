@@ -1,7 +1,7 @@
 {
-  "name": "symphony",
-  "description": "Symphony Frontend Bundles",
-  "main": "",
+  "name": "sonata",
+  "description": "Sonata Example",
+  "main": "app.js",
   "authors": [
     "Informatica LLC"
   ],
@@ -9,13 +9,7 @@
   "moduleType": [],
   "homepage": "",
   "private": false,
-  "ignore": [
-    "**/.*",
-    "node_modules",
-    "bower_components",
-    "test",
-    "tests"
-  ],
+  "ignore": [],
   "dependencies": {
     "i18next": "^1.11.1"
   }
