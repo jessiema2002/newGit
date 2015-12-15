@@ -1,7 +1,7 @@
 {
   "name": "symphony",
   "description": "Symphony Frontend Bundles",
-  "main": "",
+  "main": "index.html",
   "authors": [
     "Informatica LLC"
   ],
@@ -10,7 +10,6 @@
   "homepage": "",
   "private": false,
   "ignore": [
-    "**/.*",
     "node_modules",
     "bower_components",
     "test",
