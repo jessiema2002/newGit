@@ -1,0 +1,22 @@
+{
+  "name": "symphony",
+  "description": "Symphony Frontend Bundles",
+  "main": "",
+  "authors": [
+    "Informatica LLC"
+  ],
+  "license": "UNLICENSED",
+  "moduleType": [],
+  "homepage": "",
+  "private": false,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "i18next": "^1.11.1"
+  }
+}
